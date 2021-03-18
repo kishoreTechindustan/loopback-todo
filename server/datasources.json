@@ -1,0 +1,32 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory",
+    "file": "db-todo.json"
+  },
+  "mongod": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://localhost:27017/db-todo",
+    "database": "db-todo",
+    "password": "",
+    "name": "mongod",
+    "user": "",
+    "useUnifiedTopology": true,
+    "useNewUrlParser": true,
+    "connector": "mongodb"
+  },
+  "mongoatlas": {
+    "host": "cluster0.5sjso.mongodb.net",
+    "port": 27017,
+    "url": "mongodb+srv://user:user123456@cluster0.5sjso.mongodb.net/db-todo?retryWrites=true&w=majority",
+    "database": "db-todo",
+    "password": "user123456",
+    "name": "mongoatlas",
+    "user": "user",
+    "useUnifiedTopology": true,
+    "useNewUrlParser": true,
+    "connector": "mongodb",
+    "protocol": "mongodb+srv"
+  }
+}
